@@ -22,6 +22,6 @@ form {
 img {
     scale: 30%;
     display: block;
-    height: auto;
+    max-height: 100%;
     max-width: 100%;
 }
