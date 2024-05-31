@@ -8,10 +8,32 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <img src="horrorlogos-bonfire-B.jpg"/>
-        <p>presents</p>
-        <h1>EVIL DEAD II</h1>
-        <p>Experience the spine-tingling thrills and chills of your favourite frights on the big screen. You’ll never guess what is waiting for you in the darkness as new scares await from the best new horror films from around the world as well. You might even win a prize or two.</p>
+      <nav class="navbar" style="background-color: #000000;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://raw.githubusercontent.com/JoshSThompson/bonfire/main/horrorlogos-bonfire-B.jpg" alt="The Bonfire Horror Club" width="135" height="76">
+          </a>
+          <button style="background-color: #fff;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header" style="background-color: #000000;">
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" style="background-color: #000000;">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" style="color: #fff;" href="index.html">Prize Draw</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color: #fff;" href="admin.html">Admin</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+        <p>Please retain your ticket or booking comfirmation to be eligible for the prize draw.</p>
         <form>
             <div class="mb-3">
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder=Name required></textarea>
@@ -33,7 +55,5 @@
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-      </body>
-</html>
       </body>
 </html>
